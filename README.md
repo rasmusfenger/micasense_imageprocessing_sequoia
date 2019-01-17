@@ -1,5 +1,9 @@
 # README 
 
+### Overview
+
+This is a copy of the [MicaSense RedEdge Image Processing Tutorials](https://github.com/micasense/imageprocessing) with added functionality, so that some of the processing tools also works for Parrot Sequoia imagery. This is presented in the tutorial article [Sequoia Image Processing Tutorial.ipynb](https://github.com/rasmusfenger/micasense_imageprocessing_sequoia/blob/master/Sequoia%20Image%20Processing%20Tutorial.ipynb). Thanks to the many contributors in the Parrot developers forum for sharing their knowledge and code. Please let me know if you have suggestions for improvements or if you find bugs in the Sequoia functionality. So far it has not been tested very much. To set up and run the tutorial read on and follow the descriptions below. The rest of the README file is the same as the original file made by Micasense. 
+
 ### MicaSense RedEdge Image Processing Tutorials 
 
 This repository includes tutorials and examples for processing MicaSense RedEdge images into usable information using the python programming language.  The intended audience is researchers and developers with some software development experience that want to do their own image processing.  While a number of commercial tools fully support processing RedEdge data into reflectance maps, there are a number of reasons to process your own data, including controlling the entire radiometric workflow (for academic or publication reasons), pre-processing images to be used in a non-radiometric photogrammetry suite, or processing single sets of 5 images without building a larger map.
